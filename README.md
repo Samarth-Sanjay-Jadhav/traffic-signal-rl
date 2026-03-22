@@ -55,7 +55,7 @@ A Deep Q-Network (DQN) agent that dynamically optimizes traffic signal timings t
 
 ## 📚 Reference
 
-Based on [IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control](https://dl.acm.org/doi/10.1145/3219819.3220096) — Wei et al., KDD 2018.
+Based on [IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control](https://www.researchgate.net/publication/326504263_IntelliLight_A_Reinforcement_Learning_Approach_for_Intelligent_Traffic_Light_Control) — Wei et al., KDD 2018.
 
 ## 👤 Author
 
