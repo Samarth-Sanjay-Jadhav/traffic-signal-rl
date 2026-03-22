@@ -12,7 +12,7 @@ ROUTE_FILE = os.path.join(BASE_DIR, "nets", "single-intersection", "routes.rou.x
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
 # ── Simulation Settings ───────────────────────────────────────
-NUM_SECONDS      = 3600   # Total simulation time per episode (seconds)
+NUM_SECONDS      = 1800   # Total simulation time per episode (seconds)
 DELTA_TIME       = 5      # Agent acts every 5 seconds
 YELLOW_TIME      = 3      # Yellow phase duration (seconds)
 MIN_GREEN        = 10     # Minimum green phase duration (seconds)
@@ -34,7 +34,7 @@ ACTION_SIZE      = 2      # 0 = keep phase, 1 = switch phase
 HIDDEN_SIZE      = 64     # Neurons in hidden layers
 
 # ── Training Settings ─────────────────────────────────────────
-NUM_EPISODES     = 100    # Total training episodes
+NUM_EPISODES     = 50    # Total training episodes
 EVAL_EPISODES    = 10     # Episodes for evaluation
 SAVE_MODEL_EVERY = 10     # Save model checkpoint every N episodes
 

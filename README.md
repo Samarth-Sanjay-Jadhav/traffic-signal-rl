@@ -13,11 +13,13 @@ A Deep Q-Network (DQN) agent that dynamically optimizes traffic signal timings t
 
 | Metric | DQN Agent | Fixed Timer |
 |---|---|---|
-| Avg Total Reward | -184.57 | -184.94 |
-| Avg Queue Length | 0.977 | 0.980 |
-| Avg Wait Time | 4.847 | 4.774 |
+| Avg Total Reward | -78.40 | -94.83 |
+| Avg Queue Length | 0.830 | 0.998 |
+| Avg Wait Time | 4.079 | 5.507 |
+| Max Queue Length | 4.500 | 4.900 |
 
-> DQN agent achieved **18% reduction in queue length** over 100 training episodes.
+> DQN agent achieved **17% reduction in queue length** and **26% reduction
+in wait time** vs fixed-timer baseline on unbalanced traffic scenario.
 
 ## 🚀 How to Run
 

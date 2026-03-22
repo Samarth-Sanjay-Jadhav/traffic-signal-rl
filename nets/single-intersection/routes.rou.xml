@@ -3,15 +3,23 @@
     <vType id="car" accel="2.6" decel="4.5" sigma="0.5"
            length="5" minGap="2.5" maxSpeed="13.89" guiShape="passenger"/>
 
+    <!-- Heavy traffic West to East (main road) -->
     <flow id="WC_flow" type="car" from="WC" to="CE"
-          begin="0" end="3600" vehsPerHour="400" departLane="random" departSpeed="random"/>
+          begin="0" end="3600" vehsPerHour="800"
+          departLane="random" departSpeed="random"/>
 
+    <!-- Light traffic East to West -->
     <flow id="EC_flow" type="car" from="EC" to="CW"
-          begin="0" end="3600" vehsPerHour="400" departLane="random" departSpeed="random"/>
+          begin="0" end="3600" vehsPerHour="200"
+          departLane="random" departSpeed="random"/>
 
+    <!-- Very light North-South traffic -->
     <flow id="NC_flow" type="car" from="NC" to="CS"
-          begin="0" end="3600" vehsPerHour="200" departLane="random" departSpeed="random"/>
+          begin="0" end="3600" vehsPerHour="100"
+          departLane="random" departSpeed="random"/>
 
+    <!-- Very light South-North traffic -->
     <flow id="SC_flow" type="car" from="SC" to="CN"
-          begin="0" end="3600" vehsPerHour="200" departLane="random" departSpeed="random"/>
+          begin="0" end="3600" vehsPerHour="100"
+          departLane="random" departSpeed="random"/>
 </routes>
