@@ -77,4 +77,6 @@ Based on [IntelliLight: A Reinforcement Learning Approach for Intelligent Traffi
 
 ## 👤 Author
 
-**Samarth Sanjay Jadhav**
+Built by **Samarth Sanjay Jadhav** | BTech Project 2026 | Based on IntelliLight (KDD 2018)
+
+[GitHub Repository](https://github.com/Samarth-Sanjay-Jadhav/Autonomous-Traffic-Signal-Control-RL)
