@@ -1,7 +1,5 @@
-torch
-sumo-rl
-stable-baselines3
-numpy
+streamlit
+plotly
 pandas
+numpy
 matplotlib
-gymnasium
